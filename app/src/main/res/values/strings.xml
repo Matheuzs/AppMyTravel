@@ -14,4 +14,9 @@
     <string name="pagamento_valor_da_compra">Valor da compra:</string>
     <string name="pagamento_cvc">CVC</string>
     <string name="pagamento_nome_no_cartao">Nome no cartão</string>
+    <string name="parabens_banner_resumo">Parabens!</string>
+    <string name="compra_realizada_com_sucesso">Compra realizada com sucesso :)</string>
+    <string name="confira_o_resumo_da_compra">Confira o resumo da compra:</string>
+    <string name="banner_inicial">Banner Inicial</string>
+    <string name="imagem_do_banner">Imagem do Banner</string>
 </resources>
