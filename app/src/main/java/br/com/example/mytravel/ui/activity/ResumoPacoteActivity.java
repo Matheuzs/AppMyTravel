@@ -1,16 +1,14 @@
 package br.com.example.mytravel.ui.activity;
 
-import androidx.appcompat.app.AppCompatActivity;
-
+import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import java.math.BigDecimal;
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
 
 import br.com.example.mytravel.R;
 import br.com.example.mytravel.model.Pacote;
@@ -39,7 +37,11 @@ public class ResumoPacoteActivity extends AppCompatActivity {
         mostraData(pacote);
 
 
+        Intent intent = new Intent(this, PagamentoActivity.class);
+        startActivity(intent);
     }
+
+
 
     private void mostraData(Pacote pacote) {
         TextView dataView = findViewById(R.id.resumo_pacote_data);
@@ -70,4 +72,5 @@ public class ResumoPacoteActivity extends AppCompatActivity {
         TextView localView = findViewById(R.id.resumo_pacote_local);
         localView.setText(pacote.getLocal());
     }
+
 }
