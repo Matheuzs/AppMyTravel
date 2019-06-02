@@ -5,7 +5,7 @@
     <string name="preco_final">Preço final:</string>
     <string name="botao_realizar_pagamento">Realizar pagamento</string>
     <string name="description_imagem_do_pacote">Imagem do Pacote</string>
-    <string name="mascara_nome_no_cartao">abcdefghijklmnopqrstuvwxyzçABCDEFGHIJKLMNOPQRSTUVWXYZÇ</string>
+    <string name="mascara_nome_no_cartao">abcdefghijklmnopqrstuvwxyzçABCDEFGHIJKLMNOPQRSTUVWXYZÇ\u0020</string>
     <string name="mes_cartao">MM</string>
     <string name="ano_cartao">AA</string>
     <string name="numero_do_cartao">Número do cartão</string>
