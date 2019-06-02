@@ -1,5 +1,6 @@
 package br.com.example.mytravel.ui.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ListView;
 
@@ -23,6 +24,9 @@ public class ListaPacotesActivity extends AppCompatActivity {
         setTitle(TITLE_APPBAR);
         ListView viewDePacotes = findViewById(R.id.lista_pacotes_listview);
         configuraListView(viewDePacotes);
+
+        Intent intent = new Intent(this, ResumoPacoteActivity.class);
+        startActivity(intent);
     }
 
     private void configuraListView(ListView listaDePacotes) {

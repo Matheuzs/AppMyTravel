@@ -6,7 +6,7 @@ import android.graphics.drawable.Drawable;
 
 public class ResourceUtil {
 
-    public static final String DRAWABLE = "drawable";
+    private static final String DRAWABLE = "drawable";
 
     public static Drawable devolveDrawable(Context context, String drawableEmTexto) {
         Resources resources = context.getResources();

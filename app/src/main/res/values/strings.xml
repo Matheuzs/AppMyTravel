@@ -2,4 +2,7 @@
     <string name="app_name">MyTravel</string>
     <string name="especiais">Especiais</string>
     <string name="brasil">Brasil</string>
+    <string name="preco_final">Preço final:</string>
+    <string name="botao_realizar_pagamento">Realizar pagamento</string>
+    <string name="description_imagem_do_pacote">Imagem do Pacote</string>
 </resources>
